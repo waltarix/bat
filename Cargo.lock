@@ -1352,9 +1352,8 @@ dependencies = [
 
 [[package]]
 name = "unicode-width"
-version = "0.1.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b"
+version = "0.1.11"
+source = "git+https://github.com/waltarix/unicode-width?tag=v0.1.11-custom#4b71eaaf65accb41f39c787ac2c4e98531e05d64"
 
 [[package]]
 name = "unsafe-libyaml"
