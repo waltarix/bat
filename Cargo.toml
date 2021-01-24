@@ -106,3 +106,7 @@ features = ["wrap_help", "cargo"]
 lto = true
 strip = true
 codegen-units = 1
+opt-level = 3
+
+[patch.crates-io]
+unicode-width = { git = "https://github.com/waltarix/unicode-width", tag = "v0.1.10-custom-r2" }
